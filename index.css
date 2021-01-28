@@ -1,7 +1,10 @@
-.body{
-    background-color: #ffe3de;
+body{
+    /* background-color: #ffe3de; */
     display: flex;
     justify-content: center;
+}
+.body{
+    background-color: white;
 }
 .upper{
     width: 80%;
@@ -21,6 +24,9 @@ span{
     font-weight: bold;
     opacity: 1;
 }
+.color{
+    color: #eb5e0b;
+}
 .ingredient{
     width: 60%;
 }
@@ -36,7 +42,7 @@ span{
     font-size: 20px;
 }
 .recipe{
-    padding: 20px;
+    padding: 50px 20px;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
@@ -54,4 +60,18 @@ span{
     flex-direction: column;
     margin-left: 10px;
     font-size: 12px;
+}
+
+
+@media (max-width: 900px){
+    .content{
+        flex-direction: column-reverse;
+    }
+    .recipe{
+        padding: 20px 50px;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
 }
