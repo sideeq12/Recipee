@@ -77,8 +77,8 @@ label{
 
 @media (max-width: 900px){
     .body{
-        /* background-color: blue; */
         width: 100%;
+        background-color: blue;
     }
     .content{
         flex-direction: column-reverse;
