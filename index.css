@@ -4,7 +4,6 @@ body{
     justify-content: center;
 }
 .body{
-    /* background-color: blue; */
     width: 60%;
 }
 .upper{
@@ -77,8 +76,7 @@ label{
 
 @media (max-width: 900px){
     .body{
-        width: 100%;
-        
+        width: 100%;    
     }
     .content{
         flex-direction: column-reverse;
@@ -91,6 +89,9 @@ label{
     }
     ul li{
         font-size: 10px;
+    }
+    .food-content{
+        width: 100%;
     }
 
 }
